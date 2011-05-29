@@ -29,6 +29,13 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>1.3</version>
 				<executions>
@@ -189,7 +196,7 @@
 
 	<distributionManagement>
 		<site>
-			<id>repo.rasea.org</id>
+			<id>sourceforge.rasea.org</id>
 			<url>${htdocs.url}</url>
 		</site>
 	</distributionManagement>
