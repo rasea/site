@@ -1,0 +1,70 @@
+ -----
+ Download
+ -----
+ Cleverson Sacramento
+ -----
+
+Download
+
+%{toc|section=1|fromDepth=2|toDepth=2}
+  
+*{Pacotes}
+
+  Os arquivos do Rasea estão disponíveis para download no site do projeto no SourceForge.net. Para acessá-los diretamente, clique {{{http://download.rasea.org}aqui}}.
+
+*{Repositório Subversion}
+
+  Veja os detalhes para obter o código-fonte {{{https://github/rasea}aqui}}
+ 
+  
+*{Repositório Maven}
+
+  Caso você esteja utilizando o gerenciamento de dependências do Maven em seu projeto, você pode
+  baixar o Rasea diretamente do nosso repositório Maven. Contudo, este procedimento
+  só é aplicável para a instalação das <<extensões>> do servidor e do <<agente>>.  
+  
+  No arquivo <pom.xml> do seu projeto, acrescente o nosso repositório de acordo com o exemplo
+  abaixo:
+  
++--
+<repositories>
+	...
+	<repository>
+		<id>repo.rasea.org</id>
+		<name>Rasea Maven Repository</name>
+		<url>http://repo.rasea.org/maven2/</url>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+	</repository>
+<repositories>
++--
+  
+  Feito isso acrescente as dependências no <pom.xml> do seu projeto de acordo com a sua necessidade. Caso você esteja
+  criando uma extensão do servidor, utilize a seguinte configuração: 
+
++--
+<dependency>
+	<groupId>org.rasea</groupId>
+	<artifactId>rasea-extensions</artifactId>
+	<version>{versão do arquivo}</version>
+	<scope>compile</scope>
+</dependency>
++--
+
+  Se você está interessado em implantar o agente para JBoss Seam no seu projeto, utilize a seguinte configuração:
+
++--
+<dependency>
+	<groupId>org.rasea</groupId>
+	<artifactId>rasea-agent-seam</artifactId>
+	<version>{versão do arquivo}</version>
+	<scope>compile</scope>
+</dependency>
++--
+
+
+ 
