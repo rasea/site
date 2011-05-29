@@ -37,7 +37,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
-				<version>1.3</version>
 				<executions>
 					<execution>
 						<phase>pre-site</phase>
@@ -115,7 +114,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
-				<version>1.3</version>
 				<executions>
 					<execution>
 						<id>docs-copy</id>
