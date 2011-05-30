@@ -27,7 +27,7 @@
 
 			<script type="text/javascript">
 				$(document).ready(function(){
-					var i = Math.floor(Math.random()*3);
+					var i = Math.floor(Math.random()*5);
 					i++;
 					$("#banner").css({'background-image':'url(images/top_background_'+i+'.jpg)'});
 				});
@@ -66,7 +66,7 @@
 
 		<menu name="Sobre o Projeto">
 			<item name="Roteiros" href="tutorial/index.html" />
-			<item name="Código-fonte" href="http://github.com/rasea" />
+			<item name="Repositório" href="http://github.com/rasea" />
 		</menu>
 	</body>
 </project>
