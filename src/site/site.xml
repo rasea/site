@@ -4,11 +4,11 @@
 		<src>images/logo.png</src>
 		<href>${project.url}</href>
 	</bannerLeft>
-
+	
 	<skin>
 		<groupId>org.apache.maven.skins</groupId>
 		<artifactId>maven-stylus-skin</artifactId>
-		<version>1.0.1</version>
+		<version>1.1</version>
 	</skin>
 
 	<publishDate position="none" format="dd/MM/yyyy H:mm:ss a" />

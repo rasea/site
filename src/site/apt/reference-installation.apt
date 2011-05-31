@@ -6,7 +6,7 @@
 
 Baixando os arquivos necessários
 
-  Para instalar o servidor Rasea é preciso baixar o servidor JBoss AS em umas das versões: 4.3.2, 5.0.1 ou 5.1.0. É preciso também do Java, caso
+  Para instalar o servidor Rasea é preciso baixar o servidor JBoss AS em umas das versões: 4.2.3, 5.0.1 ou 5.1.0. É preciso também do Java, caso
   você ainda não tenha.
   
   Para instalar o Rasea no Java 6, baixe os seguintes
